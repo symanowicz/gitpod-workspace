@@ -8,7 +8,7 @@ RUN xbps-install -Myu xbps \
 # Update packages, I know this isn't docker best practice, but void is a rolling release
     && xbps-install -Myu \
 # Install gitpod/workspace-go-c-vnc equivalent packages
-    && xbps-install -My vscode tigervnc llvm12 gcc-fortran go git git-lfs sudo p7zip htop jq curl less chromium python3-pip python3-Cython python3-devel openblas-devel lapack-devel cblas-devel noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji bash-completion \
+    && xbps-install -My docker docker-compose vscode tigervnc llvm12 gcc-fortran go git git-lfs sudo p7zip htop jq curl less chromium python3-pip python3-Cython python3-devel openblas-devel lapack-devel cblas-devel noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji bash-completion \
 # Install my preferred environment
     && xbps-install -My cwm xterm dte
 
