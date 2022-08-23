@@ -1,1 +1,10 @@
+This is a repo to use as a template for gitpod/vscode backed projects. It is also used as testing for gitpod capabilities and integrations.
 
+# Getting
+`$ git clone https://github.com/symanowicz/gitpod-workspace`
+
+# Installing
+Copy these files into the root of your project directory
+
+# Using
+Don't forget to update these templates with anything related to your project.
