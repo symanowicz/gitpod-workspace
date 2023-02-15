@@ -1,2 +1,1 @@
-image:
-  file: void-desktop.Dockerfile
+image: gitpod/workspace-full-vnc
